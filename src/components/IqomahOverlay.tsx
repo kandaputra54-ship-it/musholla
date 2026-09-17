@@ -6,8 +6,8 @@ interface IqomahOverlayProps {
   onFinish: () => void;
   prayerLabel: string;
   utama: string;
-  badal: string;
-  isFriday: boolean; // Tambahkan prop ini
+  badal?: string;
+  isFriday?: boolean; // Tambahkan prop ini
 }
 
 export const IqomahOverlay = ({ 
