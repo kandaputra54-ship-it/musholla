@@ -45,7 +45,7 @@ export const KajianView = () => {
         <div className="flex items-center justify-between mb-[2vh] border-b border-white/10 pb-2">
           <div>
             <h2 className="text-[3.0vh] font-black text-[#FAED21] uppercase tracking-tight">Jadwal Kajian Pekanan</h2>
-            <p className="text-[3.0vh] text-white/90 uppercase tracking-[0.3rem]">Musholla Al-Huda Ba'da Maghrib</p>
+            <p className="text-[3.0vh] text-white/90 uppercase tracking-[0.3rem]">Musholla Al-Huda Ba'da Subuh</p>
           </div>
           <div className="flex gap-1.5 bg-black/20 px-2.5 py-1.5 rounded-full">
             {[0, 1, 2].map((i) => (
